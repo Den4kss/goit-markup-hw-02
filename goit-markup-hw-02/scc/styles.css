@@ -1,7 +1,56 @@
 /* основной #212121 */
 /* вторичный #757575 */
 /* header */
-
+:root{
+    --primari-text-color: #757575;
+    --title-text-color:#212121;
+    --accent-color: #2196F3;
+    --primari-white-color: #E5E5E5;
+}
 body{
-    background-color: #E5E5E5;
+    background-color:var(--primari-white-color) ;
+    color: var(--primari-white-color);
+    font-family: Roboto, sans-serif;
+}
+/* Header */
+.logo{
+    color: #212121;
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+}
+.logo-web{
+    color: #2196F3;
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+}
+.nav{
+    color:var(--title-text-color)
+}
+.nav:hover,
+.nav:focus{
+    color:var(--accent-color)
+}
+.contakt{
+    color: var(--primari-text-color);
+}
+.contakt:hover,
+.contakt:focus{
+    color: var(--accent-color);
+}
+/* Footer */
+address{
+    color:#FFFFFF
+}
+.footer-contakts{
+    color:rgba(255, 255, 255, 0.6)
+}
+.footer-contakts:hover,
+.footer-contakts:focus{
+        color: var(--accent-color);
 }
